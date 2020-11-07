@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoConnectionActivity">
+
+    <RelativeLayout
+        android:id="@+id/rvVisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fcec99">
+
+        <ImageView
+            android:id="@+id/gif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nonet"/>
+
+        <TextView
+            android:id="@+id/connection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_connection"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/gif"
+            android:layout_marginTop="20dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#312e2e"/>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/retry"
+            android:layout_below="@+id/connection"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/tryagain"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/try_again"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/btnstyle"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:layout_marginBottom="60dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Wallpapers</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="finish">Finish</string>
+    <string name="title_activity_home1">Home1</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="retry">No internet connection found, check your connection or try again</string>
+    <string name="try_again">TRY AGAIN</string>
+    <string name="no_connection">No connection</string>
+
+</resources>
